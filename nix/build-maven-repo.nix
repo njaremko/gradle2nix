@@ -162,8 +162,8 @@ let
 
       sourceRoot = ".";
 
-      preferLocalBuild = true;
-      allowSubstitutes = false;
+      preferLocalBuild = false;
+      allowSubstitutes = true;
     };
 
   modulePaths =
